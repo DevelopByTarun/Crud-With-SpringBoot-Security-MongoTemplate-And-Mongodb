@@ -14,10 +14,12 @@ This Is Web Based Crud
 #### Important Point
 
 ```bash
-Userid And Password Is Given In File Name CustomerAccountSecurityConfig Put In Config Folder Of This Project
+Userid And Password Is Given In File Name CustomerAccountSecurityConfig Put In Config Folder Of This App
 ```
 
-#### Heroku Live Project Url - [https://sbsmtcrud.herokuapp.com](https://sbsmtcrud.herokuapp.com)
+#### Heroku Live App Url
+
+[https://sbsmtcrud.herokuapp.com](https://sbsmtcrud.herokuapp.com)
 
 #### Frontend Technologies
 
