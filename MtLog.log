@@ -1,0 +1,1624 @@
+2019-02-01 15:07:38 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:07:38 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/
+2019-02-01 15:07:38 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:07:38 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:07:38 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:07:38 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.savedrequest.SavedRequestAwareWrapper@64ffca0]][GET]/?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:07:38 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:07:38 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:07:38 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:07:38 DEBUG UserInterceptor:23 - 
+2019-02-01 15:07:38 DEBUG UserInterceptor:24 - 
+2019-02-01 15:07:38 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:38 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:07:38 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:38 DEBUG UserInterceptor:61 - 
+2019-02-01 15:07:38 DEBUG UserInterceptor:62 - 
+2019-02-01 15:07:38 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:07:38 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:07:38 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-21
+2019-02-01 15:07:38 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:07:38 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:07:38 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:07:38 DEBUG WelcomeController:15 - Going To Enter On Welcome Page
+2019-02-01 15:07:38 DEBUG WelcomeController:16 - 
+2019-02-01 15:07:38 DEBUG WelcomeController:17 - 
+2019-02-01 15:07:38 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:07:38 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:07:38 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-23
+2019-02-01 15:07:38 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:07:38 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:07:38 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:07:38 DEBUG UserInterceptor:39 - 
+2019-02-01 15:07:38 DEBUG UserInterceptor:40 - 
+2019-02-01 15:07:38 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:38 DEBUG UserInterceptor:77 - session : {loggedUsername=tarun}
+2019-02-01 15:07:38 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:38 DEBUG UserInterceptor:79 - 
+2019-02-01 15:07:38 DEBUG UserInterceptor:80 - 
+2019-02-01 15:07:38 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:07:38 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.savedrequest.SavedRequestAwareWrapper@64ffca0]]
+2019-02-01 15:07:38 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:07:38 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:07:38 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:07:38 DEBUG LoginInterceptor:36 - Request Uri Is :: /
+2019-02-01 15:07:38 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:07:38 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.savedrequest.SavedRequestAwareWrapper@64ffca0]][exception: null]
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:07:39 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:07:39 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:07:39 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:07:39 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:07:39 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:07:39 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:07:39 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6d71a0ba]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:07:39 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:07:39 DEBUG UserInterceptor:23 - 
+2019-02-01 15:07:39 DEBUG UserInterceptor:24 - 
+2019-02-01 15:07:39 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:39 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:07:39 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:39 DEBUG UserInterceptor:61 - 
+2019-02-01 15:07:39 DEBUG UserInterceptor:62 - 
+2019-02-01 15:07:39 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:07:39 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:07:39 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-118
+2019-02-01 15:07:39 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:07:39 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:07:39 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:07:39 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:07:39 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:07:39 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-31
+2019-02-01 15:07:39 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:07:39 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:07:39 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:07:39 DEBUG UserInterceptor:39 - 
+2019-02-01 15:07:39 DEBUG UserInterceptor:40 - 
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6d71a0ba]]
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:07:39 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:07:39 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:07:39 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:07:39 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6d71a0ba]][exception: null]
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:07:39 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:07:39 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:07:39 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:07:39 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:07:51 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:07:51 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/fetch-customer-account
+2019-02-01 15:07:51 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:07:51 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:07:51 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:07:51 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6235828a]][GET]/fetch-customer-account?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:07:51 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:07:51 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:07:51 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:07:51 DEBUG UserInterceptor:23 - 
+2019-02-01 15:07:51 DEBUG UserInterceptor:24 - 
+2019-02-01 15:07:51 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:51 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:07:51 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:51 DEBUG UserInterceptor:61 - 
+2019-02-01 15:07:51 DEBUG UserInterceptor:62 - 
+2019-02-01 15:07:51 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:07:51 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:07:51 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-11247
+2019-02-01 15:07:51 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:07:51 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:07:51 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:07:51 DEBUG CustomerAccountController:70 - ****Going To Start CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:07:51 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:07:51 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:07:51 IST 2019
+2019-02-01 15:07:51 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:07:51 DEBUG CustomerAccountAspects:159 - Method Name Is :: getAllCustomersAccountDetails
+2019-02-01 15:07:51 DEBUG CustomerAccountAspects:160 - Method Storing Memory Location Code Is :: 1308134339
+2019-02-01 15:07:51 DEBUG CustomerAccountAspects:161 - Method Start Time Is :: 1549013871155
+2019-02-01 15:07:51 DEBUG CustomerAccountAspects:162 - 
+2019-02-01 15:07:51 DEBUG CustomerAccountAspects:163 - 
+2019-02-01 15:07:52 DEBUG CustomerAccountAspects:173 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:07:52 DEBUG CustomerAccountAspects:174 - Method End Time Is :: 1549013872256
+2019-02-01 15:07:52 DEBUG CustomerAccountAspects:175 - Method Total Time Taken Is :: 1101 MilliSeconds
+2019-02-01 15:07:52 DEBUG CustomerAccountAspects:176 - 
+2019-02-01 15:07:52 DEBUG CustomerAccountAspects:177 - 
+2019-02-01 15:07:52 DEBUG CustomerAccountController:75 - You Have Successfully Fetch All CustomersAccount Details List
+2019-02-01 15:07:52 DEBUG CustomerAccountController:80 - ****Going To End CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:07:52 DEBUG CustomerAccountController:81 - 
+2019-02-01 15:07:52 DEBUG CustomerAccountController:82 - 
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-1123
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:07:52 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:07:52 DEBUG UserInterceptor:39 - 
+2019-02-01 15:07:52 DEBUG UserInterceptor:40 - 
+2019-02-01 15:07:52 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:52 DEBUG UserInterceptor:77 - session : {customersAccountList=[com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@32edf19b, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@6621114d, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@54a2f5db, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@76ee6423, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@2bd2224c, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@4517f502], loggedUsername=tarun}
+2019-02-01 15:07:52 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:52 DEBUG UserInterceptor:79 - 
+2019-02-01 15:07:52 DEBUG UserInterceptor:80 - 
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6235828a]]
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:07:52 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:07:52 DEBUG LoginInterceptor:36 - Request Uri Is :: /fetch-customer-account
+2019-02-01 15:07:52 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:07:52 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6235828a]][exception: null]
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:07:52 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:07:52 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:07:52 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:07:52 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:07:52 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:07:52 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:07:52 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@169f45b1]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:07:52 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:07:52 DEBUG UserInterceptor:23 - 
+2019-02-01 15:07:52 DEBUG UserInterceptor:24 - 
+2019-02-01 15:07:52 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:52 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:07:52 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:07:52 DEBUG UserInterceptor:61 - 
+2019-02-01 15:07:52 DEBUG UserInterceptor:62 - 
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-118
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-7
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:07:52 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:07:52 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:07:52 DEBUG UserInterceptor:39 - 
+2019-02-01 15:07:52 DEBUG UserInterceptor:40 - 
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@169f45b1]]
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:07:52 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:07:52 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:07:52 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:07:52 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@169f45b1]][exception: null]
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:07:52 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:07:52 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:07:52 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:07:52 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:08:42 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/welcome-customer-account
+2019-02-01 15:08:42 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@53d463ac]][GET]/welcome-customer-account?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:08:42 DEBUG UserInterceptor:23 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:24 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:08:42 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:08:42 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:08:42 DEBUG UserInterceptor:61 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:62 - 
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-49949
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:08:42 DEBUG CustomerAccountController:29 - ****Going To Enter On Add CustomerAccount Page****
+2019-02-01 15:08:42 DEBUG CustomerAccountController:30 - 
+2019-02-01 15:08:42 DEBUG CustomerAccountController:31 - 
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-3
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:08:42 DEBUG UserInterceptor:39 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:40 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:08:42 DEBUG UserInterceptor:77 - session : {loggedUsername=tarun}
+2019-02-01 15:08:42 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:08:42 DEBUG UserInterceptor:79 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:80 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@53d463ac]]
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:08:42 DEBUG LoginInterceptor:36 - Request Uri Is :: /welcome-customer-account
+2019-02-01 15:08:42 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@53d463ac]][exception: null]
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:08:42 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:08:42 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:08:42 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1645ddf0]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:08:42 DEBUG UserInterceptor:23 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:24 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:08:42 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:08:42 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:08:42 DEBUG UserInterceptor:61 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:62 - 
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-194
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-4
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:08:42 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:08:42 DEBUG UserInterceptor:39 - 
+2019-02-01 15:08:42 DEBUG UserInterceptor:40 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1645ddf0]]
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:08:42 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:08:42 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1645ddf0]][exception: null]
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:08:42 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:08:42 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:08:42 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:02 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:02 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/add-customer-account
+2019-02-01 15:09:02 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:02 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@3c27c417]][POST]/add-customer-account?customerFirstName=Grwerge&customerLastName=Wrgwgw&customerAddress=Rherherherhe&accountType=Wegweg&accountStatus=Gwgwe&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:02 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:02 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:02 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:02 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:02 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:09:02 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:02 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:02 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-19357
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountController:45 - ****Going To Start CallSaveCustomerAccountDetails Method****
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:09:02 IST 2019
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:43 - Method Name Is :: saveCustomerAccountDetails
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:44 - Method Storing Memory Location Code Is :: 1042319433
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:45 - Method Start Time Is :: 1549013942351
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:46 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:47 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:57 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:58 - Method End Time Is :: 1549013942746
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:59 - Method Total Time Taken Is :: 395 MilliSeconds
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:60 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:61 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountController:57 - GrwergeWrgwgw Is Save Successfully
+2019-02-01 15:09:02 DEBUG CustomerAccountController:62 - ****Going To End CallSaveCustomerAccountDetails Method****
+2019-02-01 15:09:02 DEBUG CustomerAccountController:63 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountController:64 - 
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-463
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:09:02 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:09:02 DEBUG UserInterceptor:39 - 
+2019-02-01 15:09:02 DEBUG UserInterceptor:40 - 
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@3c27c417]]
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:09:02 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:09:02 DEBUG LoginInterceptor:36 - Request Uri Is :: /add-customer-account
+2019-02-01 15:09:02 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:09:02 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@3c27c417]][exception: null]
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:02 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:02 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:02 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:02 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:02 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/fetch-customer-account
+2019-02-01 15:09:02 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:02 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@232eefd0]][GET]/fetch-customer-account?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:02 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:02 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:02 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:02 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:02 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:02 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:09:02 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:02 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:02 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-10
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:02 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountController:70 - ****Going To Start CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:09:02 IST 2019
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:159 - Method Name Is :: getAllCustomersAccountDetails
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:160 - Method Storing Memory Location Code Is :: 1110074387
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:161 - Method Start Time Is :: 1549013942774
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:162 - 
+2019-02-01 15:09:02 DEBUG CustomerAccountAspects:163 - 
+2019-02-01 15:09:03 DEBUG CustomerAccountAspects:173 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:09:03 DEBUG CustomerAccountAspects:174 - Method End Time Is :: 1549013943055
+2019-02-01 15:09:03 DEBUG CustomerAccountAspects:175 - Method Total Time Taken Is :: 281 MilliSeconds
+2019-02-01 15:09:03 DEBUG CustomerAccountAspects:176 - 
+2019-02-01 15:09:03 DEBUG CustomerAccountAspects:177 - 
+2019-02-01 15:09:03 DEBUG CustomerAccountController:75 - You Have Successfully Fetch All CustomersAccount Details List
+2019-02-01 15:09:03 DEBUG CustomerAccountController:80 - ****Going To End CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:09:03 DEBUG CustomerAccountController:81 - 
+2019-02-01 15:09:03 DEBUG CustomerAccountController:82 - 
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-288
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:09:03 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:09:03 DEBUG UserInterceptor:39 - 
+2019-02-01 15:09:03 DEBUG UserInterceptor:40 - 
+2019-02-01 15:09:03 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:03 DEBUG UserInterceptor:77 - session : {customersAccountList=[com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@42867335, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@160244da, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@719a0f5, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@6e4eb42f, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@1f207d08, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@1b80cea2, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@51d4cb2f], loggedUsername=tarun}
+2019-02-01 15:09:03 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:03 DEBUG UserInterceptor:79 - 
+2019-02-01 15:09:03 DEBUG UserInterceptor:80 - 
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@232eefd0]]
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:09:03 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:09:03 DEBUG LoginInterceptor:36 - Request Uri Is :: /fetch-customer-account
+2019-02-01 15:09:03 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:09:03 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@232eefd0]][exception: null]
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:03 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:03 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:03 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:03 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:03 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:09:03 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:03 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@5585e203]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:03 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:03 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:03 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:03 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:03 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:09:03 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:03 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:03 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-126
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-3
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:09:03 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:09:03 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:09:03 DEBUG UserInterceptor:39 - 
+2019-02-01 15:09:03 DEBUG UserInterceptor:40 - 
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@5585e203]]
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:09:03 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:09:03 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:09:03 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:09:03 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@5585e203]][exception: null]
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:03 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:03 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:03 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:03 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:16 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/edit-customer-account/5c5413b6f8da2605f3c65435
+2019-02-01 15:09:16 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@4c8b6e7d]][GET]/edit-customer-account/5c5413b6f8da2605f3c65435?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:16 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:16 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:09:16 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:16 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-13243
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@4c8b6e7d]][exception: org.springframework.security.access.AccessDeniedException: Access is denied]
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:16 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:16 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/accessdenied-customer
+2019-02-01 15:09:16 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@4c8b6e7d]][GET]/accessdenied-customer?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:16 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:16 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:09:16 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:16 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-13272
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-4
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:09:16 DEBUG UserInterceptor:39 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:40 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:16 DEBUG UserInterceptor:77 - session : {error=true, loggedUsername=tarun}
+2019-02-01 15:09:16 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:16 DEBUG UserInterceptor:79 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:80 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@4c8b6e7d]]
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:09:16 DEBUG LoginInterceptor:36 - Request Uri Is :: /accessdenied-customer
+2019-02-01 15:09:16 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@4c8b6e7d]][exception: null]
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:16 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:16 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:09:16 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2c015d48]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:16 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:16 DEBUG UserInterceptor:59 - user(tarun) session : org.apache.catalina.session.StandardSessionFacade@510346c
+2019-02-01 15:09:16 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:16 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-223
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-3
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:09:16 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:09:16 DEBUG UserInterceptor:39 - 
+2019-02-01 15:09:16 DEBUG UserInterceptor:40 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2c015d48]]
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:09:16 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:09:16 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2c015d48]][exception: null]
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:16 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:16 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:16 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:31 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/
+2019-02-01 15:09:31 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2dfafd29]][GET]/?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:31 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:31 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:09:31 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:31 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-8
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:31 DEBUG WelcomeController:15 - Going To Enter On Welcome Page
+2019-02-01 15:09:31 DEBUG WelcomeController:16 - 
+2019-02-01 15:09:31 DEBUG WelcomeController:17 - 
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-2
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:09:31 DEBUG UserInterceptor:39 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:40 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:31 DEBUG UserInterceptor:77 - session : {loggedUsername=amit}
+2019-02-01 15:09:31 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:31 DEBUG UserInterceptor:79 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:80 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2dfafd29]]
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:09:31 DEBUG LoginInterceptor:36 - Request Uri Is :: /
+2019-02-01 15:09:31 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2dfafd29]][exception: null]
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:31 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:31 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:09:31 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@18823148]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:31 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:31 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:09:31 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:31 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-107
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-4
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:09:31 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:09:31 DEBUG UserInterceptor:39 - 
+2019-02-01 15:09:31 DEBUG UserInterceptor:40 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@18823148]]
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:09:31 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:09:31 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@18823148]][exception: null]
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:31 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:31 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:31 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:50 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:50 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/fetch-customer-account
+2019-02-01 15:09:50 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:50 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:50 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:50 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@103919df]][GET]/fetch-customer-account?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:50 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:50 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:50 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:50 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:50 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:50 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:50 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:09:50 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:50 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:50 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:50 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:50 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:50 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-19133
+2019-02-01 15:09:50 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:50 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:50 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:50 DEBUG CustomerAccountController:70 - ****Going To Start CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:09:50 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:09:50 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:09:50 IST 2019
+2019-02-01 15:09:50 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:09:50 DEBUG CustomerAccountAspects:159 - Method Name Is :: getAllCustomersAccountDetails
+2019-02-01 15:09:50 DEBUG CustomerAccountAspects:160 - Method Storing Memory Location Code Is :: 1748654096
+2019-02-01 15:09:50 DEBUG CustomerAccountAspects:161 - Method Start Time Is :: 1549013990836
+2019-02-01 15:09:50 DEBUG CustomerAccountAspects:162 - 
+2019-02-01 15:09:50 DEBUG CustomerAccountAspects:163 - 
+2019-02-01 15:09:51 DEBUG CustomerAccountAspects:173 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:09:51 DEBUG CustomerAccountAspects:174 - Method End Time Is :: 1549013991111
+2019-02-01 15:09:51 DEBUG CustomerAccountAspects:175 - Method Total Time Taken Is :: 275 MilliSeconds
+2019-02-01 15:09:51 DEBUG CustomerAccountAspects:176 - 
+2019-02-01 15:09:51 DEBUG CustomerAccountAspects:177 - 
+2019-02-01 15:09:51 DEBUG CustomerAccountController:75 - You Have Successfully Fetch All CustomersAccount Details List
+2019-02-01 15:09:51 DEBUG CustomerAccountController:80 - ****Going To End CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:09:51 DEBUG CustomerAccountController:81 - 
+2019-02-01 15:09:51 DEBUG CustomerAccountController:82 - 
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-279
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:09:51 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:09:51 DEBUG UserInterceptor:39 - 
+2019-02-01 15:09:51 DEBUG UserInterceptor:40 - 
+2019-02-01 15:09:51 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:51 DEBUG UserInterceptor:77 - session : {customersAccountList=[com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@21a668b2, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@79097ab8, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@43c95751, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@5d1bd4cd, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@4feac424, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@7d04abdb, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@747e08f5], loggedUsername=amit}
+2019-02-01 15:09:51 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:51 DEBUG UserInterceptor:79 - 
+2019-02-01 15:09:51 DEBUG UserInterceptor:80 - 
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@103919df]]
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:09:51 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:09:51 DEBUG LoginInterceptor:36 - Request Uri Is :: /fetch-customer-account
+2019-02-01 15:09:51 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:09:51 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@103919df]][exception: null]
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:51 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:51 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:51 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:51 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:51 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:09:51 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:51 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@4a20f2f6]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:51 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:51 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:51 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:51 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:51 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:09:51 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:51 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:51 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-92
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-3
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:09:51 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:09:51 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:09:51 DEBUG UserInterceptor:39 - 
+2019-02-01 15:09:51 DEBUG UserInterceptor:40 - 
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@4a20f2f6]]
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:09:51 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:09:51 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:09:51 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:09:51 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@4a20f2f6]][exception: null]
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:51 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:51 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:51 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:51 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:58 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:58 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/edit-customer-account/5c5413b6f8da2605f3c65435
+2019-02-01 15:09:58 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:58 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:58 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:58 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2a78db71]][GET]/edit-customer-account/5c5413b6f8da2605f3c65435?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:58 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:58 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:58 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:58 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:58 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:58 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:58 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:09:58 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:58 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:58 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:58 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:58 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:58 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-7634
+2019-02-01 15:09:58 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:58 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:58 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:58 DEBUG CustomerAccountController:89 - ****Going To Start CallGetCustomerAccountDetailsById Method****
+2019-02-01 15:09:58 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:09:58 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:09:58 IST 2019
+2019-02-01 15:09:58 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:09:58 DEBUG CustomerAccountAspects:130 - Method Name Is :: getCustomerAccountDetailsById
+2019-02-01 15:09:58 DEBUG CustomerAccountAspects:131 - Method Storing Memory Location Code Is :: 373225018
+2019-02-01 15:09:58 DEBUG CustomerAccountAspects:132 - Method Start Time Is :: 1549013998863
+2019-02-01 15:09:58 DEBUG CustomerAccountAspects:133 - 
+2019-02-01 15:09:58 DEBUG CustomerAccountAspects:134 - 
+2019-02-01 15:09:59 DEBUG CustomerAccountAspects:144 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:09:59 DEBUG CustomerAccountAspects:145 - Method End Time Is :: 1549013999111
+2019-02-01 15:09:59 DEBUG CustomerAccountAspects:146 - Method Total Time Taken Is :: 248 MilliSeconds
+2019-02-01 15:09:59 DEBUG CustomerAccountAspects:147 - 
+2019-02-01 15:09:59 DEBUG CustomerAccountAspects:148 - 
+2019-02-01 15:09:59 DEBUG CustomerAccountController:94 - You Have Successfully Edit Customer Id 5c5413b6f8da2605f3c65435
+2019-02-01 15:09:59 DEBUG CustomerAccountController:100 - ****Going To End CallGetCustomerAccountDetailsById Method****
+2019-02-01 15:09:59 DEBUG CustomerAccountController:101 - 
+2019-02-01 15:09:59 DEBUG CustomerAccountController:102 - 
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-257
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:09:59 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:09:59 DEBUG UserInterceptor:39 - 
+2019-02-01 15:09:59 DEBUG UserInterceptor:40 - 
+2019-02-01 15:09:59 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:59 DEBUG UserInterceptor:77 - session : {values=com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@6c1abc0b, org.springframework.validation.BindingResult.values=org.springframework.validation.BeanPropertyBindingResult: 0 errors, loggedUsername=amit}
+2019-02-01 15:09:59 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:59 DEBUG UserInterceptor:79 - 
+2019-02-01 15:09:59 DEBUG UserInterceptor:80 - 
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2a78db71]]
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:09:59 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:09:59 DEBUG LoginInterceptor:36 - Request Uri Is :: /edit-customer-account/5c5413b6f8da2605f3c65435
+2019-02-01 15:09:59 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:09:59 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2a78db71]][exception: null]
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:59 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:59 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:59 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:09:59 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:09:59 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:09:59 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:09:59 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@9dccea3]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:09:59 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:09:59 DEBUG UserInterceptor:23 - 
+2019-02-01 15:09:59 DEBUG UserInterceptor:24 - 
+2019-02-01 15:09:59 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:59 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:09:59 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:09:59 DEBUG UserInterceptor:61 - 
+2019-02-01 15:09:59 DEBUG UserInterceptor:62 - 
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-89
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-3
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:09:59 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:09:59 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:09:59 DEBUG UserInterceptor:39 - 
+2019-02-01 15:09:59 DEBUG UserInterceptor:40 - 
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@9dccea3]]
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:09:59 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:09:59 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:09:59 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:09:59 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@9dccea3]][exception: null]
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:09:59 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:09:59 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:09:59 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:09:59 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:10:12 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/edit-customer-account/5c2e42ad7afa4400040bcb94
+2019-02-01 15:10:12 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@71c9952f]][GET]/edit-customer-account/5c2e42ad7afa4400040bcb94?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:10:12 DEBUG UserInterceptor:23 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:24 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:12 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:10:12 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:12 DEBUG UserInterceptor:61 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:62 - 
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-13047
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:10:12 DEBUG CustomerAccountController:89 - ****Going To Start CallGetCustomerAccountDetailsById Method****
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:10:12 IST 2019
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:130 - Method Name Is :: getCustomerAccountDetailsById
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:131 - Method Storing Memory Location Code Is :: 1675986020
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:132 - Method Start Time Is :: 1549014012443
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:133 - 
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:134 - 
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:144 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:145 - Method End Time Is :: 1549014012780
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:146 - Method Total Time Taken Is :: 337 MilliSeconds
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:147 - 
+2019-02-01 15:10:12 DEBUG CustomerAccountAspects:148 - 
+2019-02-01 15:10:12 DEBUG CustomerAccountController:94 - You Have Successfully Edit Customer Id 5c2e42ad7afa4400040bcb94
+2019-02-01 15:10:12 DEBUG CustomerAccountController:100 - ****Going To End CallGetCustomerAccountDetailsById Method****
+2019-02-01 15:10:12 DEBUG CustomerAccountController:101 - 
+2019-02-01 15:10:12 DEBUG CustomerAccountController:102 - 
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-346
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:10:12 DEBUG UserInterceptor:39 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:40 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:12 DEBUG UserInterceptor:77 - session : {values=com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@56f59021, org.springframework.validation.BindingResult.values=org.springframework.validation.BeanPropertyBindingResult: 0 errors, loggedUsername=amit}
+2019-02-01 15:10:12 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:12 DEBUG UserInterceptor:79 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:80 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@71c9952f]]
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:10:12 DEBUG LoginInterceptor:36 - Request Uri Is :: /edit-customer-account/5c2e42ad7afa4400040bcb94
+2019-02-01 15:10:12 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@71c9952f]][exception: null]
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:10:12 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:10:12 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:10:12 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@602410ce]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:10:12 DEBUG UserInterceptor:23 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:24 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:12 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:10:12 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:12 DEBUG UserInterceptor:61 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:62 - 
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-155
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-5
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:10:12 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:10:12 DEBUG UserInterceptor:39 - 
+2019-02-01 15:10:12 DEBUG UserInterceptor:40 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@602410ce]]
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:10:12 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:10:12 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@602410ce]][exception: null]
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:10:12 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:10:12 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:10:12 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:10:16 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:10:16 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/fetch-customer-account
+2019-02-01 15:10:16 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:10:16 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:10:16 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:16 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1858a912]][GET]/fetch-customer-account?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:10:16 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:10:16 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:10:16 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:10:16 DEBUG UserInterceptor:23 - 
+2019-02-01 15:10:16 DEBUG UserInterceptor:24 - 
+2019-02-01 15:10:16 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:16 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:10:16 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:16 DEBUG UserInterceptor:61 - 
+2019-02-01 15:10:16 DEBUG UserInterceptor:62 - 
+2019-02-01 15:10:16 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:16 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:10:16 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-4022
+2019-02-01 15:10:16 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:10:16 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:10:16 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:10:16 DEBUG CustomerAccountController:70 - ****Going To Start CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:10:16 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:10:16 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:10:16 IST 2019
+2019-02-01 15:10:16 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:10:16 DEBUG CustomerAccountAspects:159 - Method Name Is :: getAllCustomersAccountDetails
+2019-02-01 15:10:16 DEBUG CustomerAccountAspects:160 - Method Storing Memory Location Code Is :: 476524225
+2019-02-01 15:10:16 DEBUG CustomerAccountAspects:161 - Method Start Time Is :: 1549014016994
+2019-02-01 15:10:16 DEBUG CustomerAccountAspects:162 - 
+2019-02-01 15:10:16 DEBUG CustomerAccountAspects:163 - 
+2019-02-01 15:10:17 DEBUG CustomerAccountAspects:173 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:10:17 DEBUG CustomerAccountAspects:174 - Method End Time Is :: 1549014017290
+2019-02-01 15:10:17 DEBUG CustomerAccountAspects:175 - Method Total Time Taken Is :: 296 MilliSeconds
+2019-02-01 15:10:17 DEBUG CustomerAccountAspects:176 - 
+2019-02-01 15:10:17 DEBUG CustomerAccountAspects:177 - 
+2019-02-01 15:10:17 DEBUG CustomerAccountController:75 - You Have Successfully Fetch All CustomersAccount Details List
+2019-02-01 15:10:17 DEBUG CustomerAccountController:80 - ****Going To End CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:10:17 DEBUG CustomerAccountController:81 - 
+2019-02-01 15:10:17 DEBUG CustomerAccountController:82 - 
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-303
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:10:17 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:10:17 DEBUG UserInterceptor:39 - 
+2019-02-01 15:10:17 DEBUG UserInterceptor:40 - 
+2019-02-01 15:10:17 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:17 DEBUG UserInterceptor:77 - session : {customersAccountList=[com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@5965a329, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@35bbd779, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@6876f8e5, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@4d42d20c, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@394a5c66, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@52a15429, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@d4f3f48], loggedUsername=amit}
+2019-02-01 15:10:17 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:17 DEBUG UserInterceptor:79 - 
+2019-02-01 15:10:17 DEBUG UserInterceptor:80 - 
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1858a912]]
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:10:17 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:10:17 DEBUG LoginInterceptor:36 - Request Uri Is :: /fetch-customer-account
+2019-02-01 15:10:17 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:10:17 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1858a912]][exception: null]
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:10:17 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:10:17 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:10:17 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:10:17 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:10:17 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:10:17 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:10:17 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@7f279eac]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:10:17 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:10:17 DEBUG UserInterceptor:23 - 
+2019-02-01 15:10:17 DEBUG UserInterceptor:24 - 
+2019-02-01 15:10:17 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:17 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:10:17 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:17 DEBUG UserInterceptor:61 - 
+2019-02-01 15:10:17 DEBUG UserInterceptor:62 - 
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-90
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-5
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:10:17 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:10:17 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:10:17 DEBUG UserInterceptor:39 - 
+2019-02-01 15:10:17 DEBUG UserInterceptor:40 - 
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@7f279eac]]
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:10:17 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:10:17 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:10:17 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:10:17 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@7f279eac]][exception: null]
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:10:17 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:10:17 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:10:17 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:10:17 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:10:28 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/edit-customer-account/5c5413b6f8da2605f3c65435
+2019-02-01 15:10:28 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@52b512ac]][GET]/edit-customer-account/5c5413b6f8da2605f3c65435?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:10:28 DEBUG UserInterceptor:23 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:24 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:28 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:10:28 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:28 DEBUG UserInterceptor:61 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:62 - 
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-10813
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:10:28 DEBUG CustomerAccountController:89 - ****Going To Start CallGetCustomerAccountDetailsById Method****
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:10:28 IST 2019
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:130 - Method Name Is :: getCustomerAccountDetailsById
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:131 - Method Storing Memory Location Code Is :: 685555302
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:132 - Method Start Time Is :: 1549014028222
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:133 - 
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:134 - 
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:144 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:145 - Method End Time Is :: 1549014028549
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:146 - Method Total Time Taken Is :: 327 MilliSeconds
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:147 - 
+2019-02-01 15:10:28 DEBUG CustomerAccountAspects:148 - 
+2019-02-01 15:10:28 DEBUG CustomerAccountController:94 - You Have Successfully Edit Customer Id 5c5413b6f8da2605f3c65435
+2019-02-01 15:10:28 DEBUG CustomerAccountController:100 - ****Going To End CallGetCustomerAccountDetailsById Method****
+2019-02-01 15:10:28 DEBUG CustomerAccountController:101 - 
+2019-02-01 15:10:28 DEBUG CustomerAccountController:102 - 
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-333
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:10:28 DEBUG UserInterceptor:39 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:40 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:28 DEBUG UserInterceptor:77 - session : {values=com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@159577ff, org.springframework.validation.BindingResult.values=org.springframework.validation.BeanPropertyBindingResult: 0 errors, loggedUsername=amit}
+2019-02-01 15:10:28 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:28 DEBUG UserInterceptor:79 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:80 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@52b512ac]]
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:10:28 DEBUG LoginInterceptor:36 - Request Uri Is :: /edit-customer-account/5c5413b6f8da2605f3c65435
+2019-02-01 15:10:28 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@52b512ac]][exception: null]
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:10:28 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:10:28 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:10:28 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1cbdb680]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:10:28 DEBUG UserInterceptor:23 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:24 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:28 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:10:28 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:10:28 DEBUG UserInterceptor:61 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:62 - 
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-98
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-5
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:10:28 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:10:28 DEBUG UserInterceptor:39 - 
+2019-02-01 15:10:28 DEBUG UserInterceptor:40 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1cbdb680]]
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:10:28 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:10:28 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1cbdb680]][exception: null]
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:10:28 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:10:28 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:10:28 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:12:14 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:12:14 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/update-customer-account
+2019-02-01 15:12:14 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:12:14 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@56f41e87]][POST]/update-customer-account?customerId=5c5413b6f8da2605f3c65435&customerFirstName=Deletion&customerLastName=Now&customerAddress=India&accountNumber=41c925d5-e0ba-4d4e-8e25-e92f87d65d97&accountType=fuck uou&accountStatus=Pussy&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:12:14 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:12:14 DEBUG UserInterceptor:23 - 
+2019-02-01 15:12:14 DEBUG UserInterceptor:24 - 
+2019-02-01 15:12:14 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:14 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:12:14 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:14 DEBUG UserInterceptor:61 - 
+2019-02-01 15:12:14 DEBUG UserInterceptor:62 - 
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-105618
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:37 - Session Is :: true
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountController:116 - ****Going To Start CallUpdateCustomerAccountDetails Method****
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:12:14 IST 2019
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:72 - Method Name Is :: updateCustomerAccountDetails
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:73 - Method Storing Memory Location Code Is :: 124441200
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:74 - Method Start Time Is :: 1549014134302
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:75 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:76 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:86 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:87 - Method End Time Is :: 1549014134945
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:88 - Method Total Time Taken Is :: 643 MilliSeconds
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:89 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:90 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountController:129 - DeletionNow Is Updated Successfully
+2019-02-01 15:12:14 DEBUG CustomerAccountController:134 - ****Going To End CallUpdateCustomerAccountDetails Method****
+2019-02-01 15:12:14 DEBUG CustomerAccountController:135 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountController:136 - 
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-662
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:12:14 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:12:14 DEBUG UserInterceptor:39 - 
+2019-02-01 15:12:14 DEBUG UserInterceptor:40 - 
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@56f41e87]]
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:12:14 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:12:14 DEBUG LoginInterceptor:36 - Request Uri Is :: /update-customer-account
+2019-02-01 15:12:14 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:12:14 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@56f41e87]][exception: null]
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:12:14 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:12:14 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:12:14 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:12:14 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:12:14 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/fetch-customer-account
+2019-02-01 15:12:14 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:12:14 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@4630b0e2]][GET]/fetch-customer-account?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:12:14 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:12:14 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:12:14 DEBUG UserInterceptor:23 - 
+2019-02-01 15:12:14 DEBUG UserInterceptor:24 - 
+2019-02-01 15:12:14 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:14 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:12:14 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:14 DEBUG UserInterceptor:61 - 
+2019-02-01 15:12:14 DEBUG UserInterceptor:62 - 
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-9
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:12:14 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountController:70 - ****Going To Start CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:12:14 IST 2019
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:159 - Method Name Is :: getAllCustomersAccountDetails
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:160 - Method Storing Memory Location Code Is :: 1879077629
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:161 - Method Start Time Is :: 1549014134969
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:162 - 
+2019-02-01 15:12:14 DEBUG CustomerAccountAspects:163 - 
+2019-02-01 15:12:15 DEBUG CustomerAccountAspects:173 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:12:15 DEBUG CustomerAccountAspects:174 - Method End Time Is :: 1549014135244
+2019-02-01 15:12:15 DEBUG CustomerAccountAspects:175 - Method Total Time Taken Is :: 275 MilliSeconds
+2019-02-01 15:12:15 DEBUG CustomerAccountAspects:176 - 
+2019-02-01 15:12:15 DEBUG CustomerAccountAspects:177 - 
+2019-02-01 15:12:15 DEBUG CustomerAccountController:75 - You Have Successfully Fetch All CustomersAccount Details List
+2019-02-01 15:12:15 DEBUG CustomerAccountController:80 - ****Going To End CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:12:15 DEBUG CustomerAccountController:81 - 
+2019-02-01 15:12:15 DEBUG CustomerAccountController:82 - 
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-282
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:12:15 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:12:15 DEBUG UserInterceptor:39 - 
+2019-02-01 15:12:15 DEBUG UserInterceptor:40 - 
+2019-02-01 15:12:15 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:15 DEBUG UserInterceptor:77 - session : {customersAccountList=[com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@1bf306d3, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@75a6b8ad, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@36d2b15b, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@4536bae6, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@46f0e90d, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@65352ae, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@25a87356], loggedUsername=amit}
+2019-02-01 15:12:15 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:15 DEBUG UserInterceptor:79 - 
+2019-02-01 15:12:15 DEBUG UserInterceptor:80 - 
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@4630b0e2]]
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:12:15 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:12:15 DEBUG LoginInterceptor:36 - Request Uri Is :: /fetch-customer-account
+2019-02-01 15:12:15 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:12:15 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@4630b0e2]][exception: null]
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:12:15 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:12:15 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:12:15 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:12:15 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:12:15 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:12:15 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:12:15 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2e6d49b0]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:12:15 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:12:15 DEBUG UserInterceptor:23 - 
+2019-02-01 15:12:15 DEBUG UserInterceptor:24 - 
+2019-02-01 15:12:15 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:15 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:12:15 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:15 DEBUG UserInterceptor:61 - 
+2019-02-01 15:12:15 DEBUG UserInterceptor:62 - 
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-91
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-5
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:12:15 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:12:15 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:12:15 DEBUG UserInterceptor:39 - 
+2019-02-01 15:12:15 DEBUG UserInterceptor:40 - 
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2e6d49b0]]
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:12:15 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:12:15 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:12:15 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:12:15 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2e6d49b0]][exception: null]
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:12:15 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:12:15 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:12:15 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:12:15 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:12:36 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:12:36 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/delete-customer-account/5c5413b6f8da2605f3c65435
+2019-02-01 15:12:36 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:12:36 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6b28073d]][GET]/delete-customer-account/5c5413b6f8da2605f3c65435?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:12:36 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:12:36 DEBUG UserInterceptor:23 - 
+2019-02-01 15:12:36 DEBUG UserInterceptor:24 - 
+2019-02-01 15:12:36 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:36 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:12:36 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:36 DEBUG UserInterceptor:61 - 
+2019-02-01 15:12:36 DEBUG UserInterceptor:62 - 
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-21121
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountController:143 - ****Going To Start CallDeleteCustomerAccountDetails Method****
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:12:36 IST 2019
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:101 - Method Name Is :: deleteCustomerAccountDetails
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:102 - Method Storing Memory Location Code Is :: 606169240
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:103 - Method Start Time Is :: 1549014156488
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:104 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:105 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:115 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:116 - Method End Time Is :: 1549014156848
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:117 - Method Total Time Taken Is :: 360 MilliSeconds
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:118 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:119 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountController:146 - You Have Successfully Delete Customer Id 5c5413b6f8da2605f3c65435
+2019-02-01 15:12:36 DEBUG CustomerAccountController:151 - ****Going To End CallDeleteCustomerAccountDetails Method****
+2019-02-01 15:12:36 DEBUG CustomerAccountController:152 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountController:153 - 
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-370
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:12:36 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:12:36 DEBUG UserInterceptor:39 - 
+2019-02-01 15:12:36 DEBUG UserInterceptor:40 - 
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6b28073d]]
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:12:36 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:12:36 DEBUG LoginInterceptor:36 - Request Uri Is :: /delete-customer-account/5c5413b6f8da2605f3c65435
+2019-02-01 15:12:36 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:12:36 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6b28073d]][exception: null]
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:12:36 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:12:36 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:12:36 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:12:36 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:12:36 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/fetch-customer-account
+2019-02-01 15:12:36 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:12:36 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@12e79416]][GET]/fetch-customer-account?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:12:36 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:12:36 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:12:36 DEBUG UserInterceptor:23 - 
+2019-02-01 15:12:36 DEBUG UserInterceptor:24 - 
+2019-02-01 15:12:36 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:36 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:12:36 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:36 DEBUG UserInterceptor:61 - 
+2019-02-01 15:12:36 DEBUG UserInterceptor:62 - 
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-9
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:12:36 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountController:70 - ****Going To Start CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:29 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:31 - Method Is Calling On :: Fri Feb 01 15:12:36 IST 2019
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:32 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:159 - Method Name Is :: getAllCustomersAccountDetails
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:160 - Method Storing Memory Location Code Is :: 96024030
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:161 - Method Start Time Is :: 1549014156874
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:162 - 
+2019-02-01 15:12:36 DEBUG CustomerAccountAspects:163 - 
+2019-02-01 15:12:37 DEBUG CustomerAccountAspects:173 - Method Declaring Type Is :: class com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.service.CustomerAccountService
+2019-02-01 15:12:37 DEBUG CustomerAccountAspects:174 - Method End Time Is :: 1549014157116
+2019-02-01 15:12:37 DEBUG CustomerAccountAspects:175 - Method Total Time Taken Is :: 242 MilliSeconds
+2019-02-01 15:12:37 DEBUG CustomerAccountAspects:176 - 
+2019-02-01 15:12:37 DEBUG CustomerAccountAspects:177 - 
+2019-02-01 15:12:37 DEBUG CustomerAccountController:75 - You Have Successfully Fetch All CustomersAccount Details List
+2019-02-01 15:12:37 DEBUG CustomerAccountController:80 - ****Going To End CallGetAllCustomersAccountDetails Method****
+2019-02-01 15:12:37 DEBUG CustomerAccountController:81 - 
+2019-02-01 15:12:37 DEBUG CustomerAccountController:82 - 
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-249
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:12:37 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:12:37 DEBUG UserInterceptor:39 - 
+2019-02-01 15:12:37 DEBUG UserInterceptor:40 - 
+2019-02-01 15:12:37 DEBUG UserInterceptor:73 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:37 DEBUG UserInterceptor:77 - session : {customersAccountList=[com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@21740063, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@6196d6e3, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@4f7fa9e3, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@3247217, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@2521d08, com.app.MavenSpringBootMvcAopSecurityCrudWithLog4jMongoTemplateAndMongodb.modal.CustomerDTO@5524f26f], loggedUsername=amit}
+2019-02-01 15:12:37 DEBUG UserInterceptor:78 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:37 DEBUG UserInterceptor:79 - 
+2019-02-01 15:12:37 DEBUG UserInterceptor:80 - 
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@12e79416]]
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:12:37 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:12:37 DEBUG LoginInterceptor:36 - Request Uri Is :: /fetch-customer-account
+2019-02-01 15:12:37 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:12:37 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@12e79416]][exception: null]
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:12:37 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:12:37 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:12:37 DEBUG LoginInterceptor:50 - 
+2019-02-01 15:12:37 DEBUG LoginInterceptor:18 - ****Going To Enter PreHandle Method Of LoginInterceptor****
+2019-02-01 15:12:37 DEBUG LoginInterceptor:22 - Request Url Is :: http://localhost:8080/static/css/style.css
+2019-02-01 15:12:37 DEBUG LoginInterceptor:23 - 
+2019-02-01 15:12:37 DEBUG LoginInterceptor:24 - 
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:20 - ****Going To Enter PreHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:23 - [preHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@56465e5f]][GET]/static/css/style.css?&_psip=0:0:0:0:0:0:0:1
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:24 - 
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:25 - 
+2019-02-01 15:12:37 DEBUG UserInterceptor:22 - ****Going To Enter PreHandle Method Of UserInterceptor****
+2019-02-01 15:12:37 DEBUG UserInterceptor:23 - 
+2019-02-01 15:12:37 DEBUG UserInterceptor:24 - 
+2019-02-01 15:12:37 DEBUG UserInterceptor:55 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:37 DEBUG UserInterceptor:59 - user(amit) session : org.apache.catalina.session.StandardSessionFacade@1635683a
+2019-02-01 15:12:37 DEBUG UserInterceptor:60 - ================= addToModelUserDetails ============================
+2019-02-01 15:12:37 DEBUG UserInterceptor:61 - 
+2019-02-01 15:12:37 DEBUG UserInterceptor:62 - 
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:25 - ****Going To Enter PreHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:28 - Pre handle method - check handling start time
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:33 - Time since last request in this session: {} ms :-112
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:37 - Session Is :: false
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:38 - 
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:39 - 
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:49 - ****Going To Enter PostHandle Method Of SessionTimerInterceptor****
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:51 - Post handle method - check execution time of handling
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:53 - Execution time for handling the request was: {} ms :-3
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:54 - 
+2019-02-01 15:12:37 DEBUG SessionTimerInterceptor:55 - 
+2019-02-01 15:12:37 DEBUG UserInterceptor:38 - ****Going To Enter PostHandle Method Of UserInterceptor****
+2019-02-01 15:12:37 DEBUG UserInterceptor:39 - 
+2019-02-01 15:12:37 DEBUG UserInterceptor:40 - 
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:36 - ****Going To Enter PostHandle Method Of LoggerInterceptor****
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:39 - [postHandle][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@56465e5f]]
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:40 - 
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:41 - 
+2019-02-01 15:12:37 DEBUG LoginInterceptor:33 - ****Going To Enter PostHandle Method Of LoginInterceptor****
+2019-02-01 15:12:37 DEBUG LoginInterceptor:36 - Request Uri Is :: /static/css/style.css
+2019-02-01 15:12:37 DEBUG LoginInterceptor:37 - 
+2019-02-01 15:12:37 DEBUG LoginInterceptor:38 - 
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:51 - ****Going To Enter AfterCompletion Method Of LoggerInterceptor****
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:55 - [afterCompletion][SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@56465e5f]][exception: null]
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:56 - 
+2019-02-01 15:12:37 DEBUG LoggerInterceptor:57 - 
+2019-02-01 15:12:37 DEBUG LoginInterceptor:48 - ****Going To Enter AfterCompletion Method Of LoginInterceptor****
+2019-02-01 15:12:37 DEBUG LoginInterceptor:49 - 
+2019-02-01 15:12:37 DEBUG LoginInterceptor:50 - 

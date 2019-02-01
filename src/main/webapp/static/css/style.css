@@ -1,0 +1,188 @@
+.myidx {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: arial;
+	color: #68228b;
+}
+
+ul .myListType {
+	list-style-type: square;
+}
+
+.notice {
+    padding: 10px;
+    background-color: #fafafa;
+    border-left: 6px solid #7f7f84;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+}
+
+.notice-danger {
+    border-color: #d73814;
+}
+
+.notice-warning {
+    border-color: #eeee00;
+}
+
+.notice-info {
+    border-color: #00868b;
+}
+
+.notice-dark {
+    border-color: #6e7b8b;
+}
+
+.notice-primary {
+    border-color: #1e90ff
+    ;
+}
+
+.notice-success {
+    border-color: #228b22;
+}
+
+
+.idx {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Georgia;
+	color: brown;
+}
+
+.enter {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: fantasy;
+	color: chocolate;
+}
+
+.show {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Times New Roman;
+	color: springgreen;
+}
+
+nav {
+	font-family: cursive;
+	font-size: 1.3em;
+}
+
+nav #fonty {
+	font-family: cursive;
+	font-size: 1.1em;
+}
+
+ul li #isColor {
+	color: black;
+}
+
+.btnOne a {
+	color: black;
+}
+
+.btnTwo a {
+	color: black;
+}
+
+table tbody {
+	text-align: center;
+}
+
+table thead tr th {
+	text-align: center;
+}
+
+.view {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Verdana;
+	color: yellow;
+}
+
+.onview {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Tahoma;
+	color: cadetblue;
+}
+
+#banner {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Cambria;
+	color: darkkhaki;
+}
+
+.contact {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: cursive;
+	color: orange;
+}
+
+
+/* for buttons only */
+
+.btn3d {
+    position: relative;
+    top: -6px;
+    border: 0;
+    transition: all 40ms linear;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 20%;
+}
+
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+    -moz-outline-style: none;
+    outline: medium none;
+}
+
+.btn3d:active,
+.btn3d.active {
+    top: 2px;
+}
+
+
+.btn3d.btn-primary {
+    box-shadow: 0 0 0 1px #417fbd inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #4D5BBE, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    background-color: #4274D7;
+}
+
+.btn3d.btn-primary:active,
+.btn3d.btn-primary.active {
+    box-shadow: 0 0 0 1px #417fbd inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+    background-color: #4274D7;
+}
+
+
+.btn3d.btn-info {
+    box-shadow: 0 0 0 1px #00a5c3 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #348FD2, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    background-color: #39B3D7;
+}
+
+.btn3d.btn-info:active,
+.btn3d.btn-info.active {
+    box-shadow: 0 0 0 1px #00a5c3 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+    background-color: #39B3D7;
+}
+
+.btn3d.btn-magick {
+    color: #fff;
+    box-shadow: 0 0 0 1px #9a00cd inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #9823d5, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    background-color: #bb39d7;
+}
+.btn3d.btn-magick:active,
+.btn3d.btn-magick.active {
+    box-shadow: 0 0 0 1px #9a00cd inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+    background-color: #bb39d7;
+}
+
